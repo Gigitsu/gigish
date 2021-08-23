@@ -1,0 +1,13 @@
+*.zwc
+*.zwc.old
+*.swp
+plugins/*/cache.zsh
+contrib
+
+themes/*
+!themes/README.md
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
