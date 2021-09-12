@@ -100,6 +100,6 @@ bindkey '^[[1;5C' forward-word
 bindkey '.' expand-dots
 bindkey -M isearch '.' self-insert
 
-# TODO
-# bind edit-command-line
-# bind prepend-sudo
+bindkey '^X^E' edit-command-line
+
+bindkey '^X^S' prepend-sudo
