@@ -55,7 +55,6 @@ zle -N prepend-sudo
 # Bindings
 #
 
-bindkey -d
 bindkey -e
 
 bindkey -s '^[OM'    '^M'

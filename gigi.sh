@@ -66,6 +66,8 @@ function set_environment {
   unsetopt HUP              # Don't kill jobs on shell exit.
   unsetopt CHECK_JOBS       # Don't report on jobs when shell exit.
 
+  # delete all key bindings before load plugins and configurations
+  bindkey -d
 }
 
 function load_plugins {
